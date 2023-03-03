@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --menu-on: #FFFFFF;
+  --menu-off:#8D8D99;
+  --title-text: #E1E1E6;
+  
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+}
+
+.bg2 {
+  background: green;
+
+}
+
+.bg3 {
+  background: blue;
+}
+
+nav {
+  font-size: 2rem;
+  
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  margin: 4rem 0 0 7.2rem;
+
+}
+
+nav a {
+  color: var(--menu-off);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--menu-on);
+  transition: color .3s;
+}
+
+/*PAGE 1 =============================================================================*/
+
+#page1 {
+  background: url("/images/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#text-page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 22.2rem;
+}
+
+#page1 h1 {
+  font-size: 4.8rem;
+  color: var(--title-text);
+  margin-bottom: 2.4rem;
+}
+
+#page1 button {
+  width: 19.5rem;
+  height: 4.8rem;
+  
+  cursor: pointer;
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--menu-on);
+  font-weight: 700;
+  font-size: 1.4rem;
+
+  background: transparent;
+
+  border: 2px solid #FFFFFF;
+  border-radius: .5rem;
+}
+
+#page1 button:hover {
+  transition: all .3s;
+
+  background: var(--menu-on);
+  color: #02799D;
+}
+
+/*PAGE 2 =============================================================================*/
+
+#page2 {
+  background: url("/images/universe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#text-page2 {
+  margin: 20rem 0 0 10rem;
+}
+
+#page2 h1 {
+  font-size: 4.8rem;
+  color: var(--title-text);
+  margin-bottom: 1.6rem;
+}
+
+#page2 p {
+  width: 64rem;
+
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+  line-height: 3rem;
+
+  color: var(--title-text);
+}
+
+/*PAGE 3 =============================================================================*/
+
+#page3 {
+  background: url("/images/exploration.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#text-page3 {
+  margin: 20rem 0 0 10rem;
+}
+
+#page3 h1 {
+  font-size: 4.8rem;
+  color: var(--title-text);
+  margin-bottom: 1.6rem;
+}
+
+#page3 p {
+  width: 64rem;
+
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+  line-height: 3rem;
+
+  color: var(--title-text);
+}
